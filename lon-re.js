@@ -129,6 +129,8 @@ router.post("/driver", async (req, res) => {
     }
 
     return res.status(200).json({ status: "success", data });
+
+    // jjkddjsdkfjsdfjskld
   } catch (error) {
     console.error(error);
     return res.status(500).json({ status: "error", message: "Internal Server Error" });
